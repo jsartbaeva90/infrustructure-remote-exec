@@ -1,4 +1,4 @@
-resource "aws_security_group" "public" {
+resource "aws_security_group" "jenkins" {
   name        = "public"
   description = "Allow TLS inbound traffic"
   vpc_id      = "${var.vpc}"
